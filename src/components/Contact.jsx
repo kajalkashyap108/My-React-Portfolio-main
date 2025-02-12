@@ -47,17 +47,17 @@ const ContactForm = () => {
     
     try {
       const templateParams = {
-        to_name: 'Priyanshu',
+        to_name: 'Kajal',
         from_name: formData.name,
         message: formData.message,
         reply_to: formData.email,
       };
 
       await emailjs.send(
-        'service_98tw0xc',
-        'template_as6sjil',
+        'service_drpzg2h',
+        'template_7fr12o6',
         templateParams,
-        'LKJg32gTvTg56DrCk'
+        'YHYu0Scf_VDkknTEp'
       );
 
       setFormData({ name: '', email: '', message: '' });

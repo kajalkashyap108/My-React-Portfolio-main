@@ -23,15 +23,10 @@ const About = () => {
                 initial={{opacity:0,x:100}}
                 transition={{duration:0.5}}
                  className='flex justify-center text-justify lg:justify-start '>
-                    <p className='my-4 max-w-xl py-6 font-medium '>
-                        Hello! I’m a passionate Computer Science and Engineering graduate from GIET University  in Gunupur,Odisha. My education has equipped me with a solid foundation in both theoretical and practical aspects of computer science.
-                        <br></br>
-                        <br></br>
-                        Proficient in Python, C/C++, JavaScript, and PHP, with hands-on experience in web development using Django and Flask frameworks. Skilled in machine learning libraries like TensorFlow, scikit-learn, NumPy, and pandas.Familiar with HTML/CSS for frontend development and proficient in SQL and Firebase for database management. Additionally, often practice coding questions on various platforms and a adept problem solver.
-                        <br></br>
-                        <br></br>
-                        I have gained hands-on experience through internships, including my role as a Software Developer Intern at DePronto Infotech, where I worked on projects for leading private banks in India.I actively participate in coding challenges on platforms like LeetCode and HackerRank, where I have solved over 250 problems and achieved a 5-star rating. I am also involved in extracurricular activities and hold certifications like AWS Cloud Practitioner Essentials.
-                    </p>
+                  <p className='my-4 max-w-xl py-6 font-medium '>
+                    {ABOUT_TEXT}
+    
+</p>
                 </motion.div>
             </div>
         </div>

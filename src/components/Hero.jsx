@@ -24,7 +24,7 @@ const Hero = () => {
             initial="hidden"
             animate="visible"
              className='pb-14 text-4xl font-thin tracking-tight lg:mt-16 lg:text-6xl hover:underline decoration-violet-500 transition duration-700 ease-in-out'>
-              Priyanshu Panda
+              Kajal Kashyap
             </motion.h1>
             
             <motion.span variants={container(1)}

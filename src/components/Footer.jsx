@@ -26,23 +26,19 @@ const Footer = () => {
                         animate={{ scale: [1, 1.2, 1] }} 
                         transition={{ repeat: Infinity, duration: 1.5 }}>
                         ❤
-                    </motion.span> by Priyanshu 
+                    </motion.span> by Kajal
                 </p>
                 
                 <div className="flex justify-center space-x-6 text-white mb-6">
-                <a href="https://www.linkedin.com/in/priyanshu-panda/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/kajalkashyap108/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className='text-white transition ease-in-out delay-100 hover:-translate-y-1' size={24}></FaLinkedin>
               </a>
-              <a href="https://leetcode.com/u/its_priyanshu/" target="_blank" rel="noopener noreferrer"> 
-                <LiaExternalLinkAltSolid className='text-white transition ease-in-out delay-100 hover:-translate-y-1 ' size={24}></LiaExternalLinkAltSolid>
-                </a>
-                <a href="https://www.instagram.com/priyanshuupanda__" target="_blank" rel="noopener noreferrer"> 
-                <FaInstagram className='text-white transition ease-in-out delay-100 hover:-translate-y-1' size={24}></FaInstagram></a>
-                <a href="https://github.com/thegeek36" target="_blank" rel="noopener noreferrer"> 
+              
+                <a href="https://github.com/kajalkashyap108" target="_blank" rel="noopener noreferrer"> 
                 <FaGithub className='text-white transition ease-in-out delay-100 hover:-translate-y-1' size={24}></FaGithub> </a>
-                <a href="https://x.com/that_tallguy_1" target="_blank" rel="noopener noreferrer"> 
-                <BsTwitterX className='text-white transition ease-in-out delay-100 hover:-translate-y-2' size={24}></BsTwitterX> </a>
+             
                 </div>
+                <p>Contact at +918817672524 or kashyapkashyap2212@gmail.com</p>
 
                 <button 
                     onClick={scrollToTop} 
@@ -51,7 +47,7 @@ const Footer = () => {
                 </button>
 
                 <p className="text-white text-sm">
-                    © {currentYear} Priyanshu Panda. All Rights Reserved.
+                    © {currentYear} Kajal Kashyap. All Rights Reserved.
                 </p>
             </motion.div>
         </footer>
