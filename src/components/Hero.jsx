@@ -1,6 +1,6 @@
 import React from 'react'
 import { HERO_CONTENT } from '../constants';
-import profilePic from "../assets/hero-1.JPG";
+import profilePic from "../assets/hero-1.jpg";
 import santaHat from "../assets/santahat.png";
 import { motion } from "framer-motion"
 
@@ -71,10 +71,11 @@ const Hero = () => {
     >
       {/* Profile Picture */}
       <img 
-        src={profilePic} 
-        alt="Priyanshu Panda" 
-        className='max-w-xs lg:max-w-s h-auto rounded-2xl  hover:scale-110 focus:outline-none focus-visible:outline-none'
-      />
+  src={profilePic} 
+  alt="Kajal Kashyap" 
+  className="mt-10 max-w-xs lg:max-w-s h-auto rounded-2xl hover:scale-110 focus:outline-none focus-visible:outline-none"
+/>
+
       
       {/* Santa Hat */}
       <motion.img 
